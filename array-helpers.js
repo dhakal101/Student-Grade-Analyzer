@@ -9,13 +9,12 @@
 
 function includes(item, anArray) {
 
-    for (let i = 1; i < anArray.length; i++) {
-        if (anArray[i] === item) {
-            return 'True';
-        } else {
-            return 'False';
-        }
+    for (let i = 0; i < anArray.length; i++) {
+        if (anArray[i] == item) {
+            return true;
+        } 
     }
+    return false;
 }
 
 
